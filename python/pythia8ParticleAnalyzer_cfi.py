@@ -6,4 +6,6 @@ pythia8ParticleAnalyzer = cms.EDAnalyzer("Pythia8ParticleAnalyzer",
     numberShowProcess = cms.untracked.int32(1),
     numberShowEvent = cms.untracked.int32(1),
     useMessageLogger = cms.untracked.bool(False),
+    histFile = cms.untracked.string("histograms.root"),
+    makePlots = cms.untracked.bool(True),
 )
